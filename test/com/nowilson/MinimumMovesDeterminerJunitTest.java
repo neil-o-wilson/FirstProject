@@ -7,13 +7,13 @@ import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
-public class ResultJunitTest {
+public class MinimumMovesDeterminerJunitTest {
     @Test
     void testBlah() {
         List<Integer> arr1 = Arrays.asList(new Integer[]{123, 935});
         List<Integer> arr2 = Arrays.asList(new Integer[]{456, 321});
         int expectedMoves = 20;
-        int actualMoves = Result.minimumMoves(arr1, arr2);
+        int actualMoves = MinimumMovesDeterminer.minimumMoves(arr1, arr2);
         assertEquals(expectedMoves, actualMoves);
     }
 
@@ -22,7 +22,7 @@ public class ResultJunitTest {
         List<Integer> arr1 = Arrays.asList(new Integer[]{345, 111});
         List<Integer> arr2 = Arrays.asList(new Integer[]{570, 111});
         int expectedMoves = 10;
-        int actualMoves = Result.minimumMoves(arr1, arr2);
+        int actualMoves = MinimumMovesDeterminer.minimumMoves(arr1, arr2);
         assertEquals(expectedMoves, actualMoves);
     }
 }

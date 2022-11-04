@@ -3,7 +3,7 @@ package com.nowilson;
 import java.util.Arrays;
 import java.util.List;
 
-public class MinimumMovesDeterminerTest {
+public class MinimumMovesDeterminerJavaTest {
     public static void main(String[] args) {
         doTest(Arrays.asList(new Integer[]{123, 935}), Arrays.asList(new Integer[]{456, 321}), 20);
         doTest(Arrays.asList(new Integer[]{345, 111}), Arrays.asList(new Integer[]{570, 111}), 10);

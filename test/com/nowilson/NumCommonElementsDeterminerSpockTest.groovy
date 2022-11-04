@@ -2,9 +2,9 @@ package com.nowilson;
 
 import spock.lang.*;
 
-public class NumCommonElementsDeterminerTest extends Specification {
+public class NumCommonElementsDeterminerSpockTest extends Specification {
 
-    def "test array generation from number"() {
+    void "test array generation from number"() {
         expect: "expected results"
         NumCommonElementsDeterminer.toEvenDivisorElements(startingNum) == expectedResults
 
@@ -15,11 +15,11 @@ public class NumCommonElementsDeterminerTest extends Specification {
         7           | [7] as Set
     }
 
-    def "test results for common inputs"() {
+    void "test results for common inputs"() {
         expect: "the expected results"
         NumCommonElementsDeterminer.determineCommonElementsCount(num1, num2) == expectedResult
 
-        where: "the inputs and expected result are as follows"
+        where: "the inputs and expected results are as follows"
         num1    | num2  | expectedResult
         8       | 4     | 3
         8       | 7     | 0

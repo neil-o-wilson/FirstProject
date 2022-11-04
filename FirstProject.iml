@@ -23,5 +23,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="spockframework.spock.core" level="project" />
+    <orderEntry type="library" name="codehaus.groovy" level="project" />
   </component>
 </module>

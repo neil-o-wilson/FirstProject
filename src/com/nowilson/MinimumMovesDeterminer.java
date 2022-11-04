@@ -3,15 +3,7 @@ package com.nowilson;
 import java.util.*;
 
 
-class Result {
-
-    private static final int MIN_ARRAY_SIZE = 1;
-
-    private static final int MAX_ARRAY_SIZE = (int) Math.pow(10, 5);
-
-    private static final int MIN_NUM = 1;
-
-    private static final int MAX_NUM = (int) Math.pow(10, 9);
+class MinimumMovesDeterminer {
 
     /*
      * Complete the 'minimumMoves' function below.
