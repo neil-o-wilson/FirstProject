@@ -20,6 +20,7 @@ class MinimumMovesDeterminer {
             logger.log(SEVERE, "Error in loading configuration file", e);
         }
     }
+
     /*
      * Complete the 'minimumMoves' function below.
      *
